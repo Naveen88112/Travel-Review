@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Travel Review Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin: 0;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Reviews Section */
+        .reviews {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        .reviews h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 36px;
+        }
+
+        .review-cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .review-card {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .review-card img {
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .review-card h3 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .review-card p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .rating {
+            font-size: 18px;
+            color: #ff6347;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        .social-links li {
+            display: inline;
+            margin-left: 10px;
+        }
+
+        .social-links li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .social-links li a:hover {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Review</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="reviews">
+        <div class="container">
+            <h2>Traveler Reviews</h2>
+            <div class="review-cards">
+                <div class="review-card">
+                    <img src="C:\Users\Siri\Downloads\images.png" alt="Reviewer 1">
+                    <h3>John Doe</h3>
+                    <p>"Amazing experience in Paris. The Eiffel Tower at night is breathtaking!"</p>
+                    <p class="rating">Rating: ★★★★☆</p>
+                </div>
+                <div class="review-card">
+                    <img src="C:\Users\Siri\Downloads\images.png" alt="Reviewer 2">
+                    <h3>Jane Smith</h3>
+                    <p>"Tokyo is a city like no other. The food, the culture, the people - all fantastic!"</p>
+                    <p class="rating">Rating: ★★★★★</p>
+                </div>
+                <div class="review-card">
+                    <img src="C:\Users\Siri\Downloads\images.png" alt="Reviewer 3">
+                    <h3>Michael Johnson</h3>
+                    <p>"New York has an energy that you just don't find anywhere else."</p>
+                    <p class="rating">Rating: ★★★★☆</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Review Platform. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

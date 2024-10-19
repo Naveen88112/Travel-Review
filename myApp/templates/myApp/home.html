@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Travel Review Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    {% load static %}
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin: 0;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url("C:/Users/Siri/Downloads/1.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 150px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero a {
+            padding: 15px 30px;
+            background-color: #ff6347;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .hero a:hover {
+            background-color: #e5533d;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        .social-links li {
+            display: inline;
+            margin-left: 10px;
+        }
+
+        .social-links li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .social-links li a:hover {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Review</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations">Destinations</a></li>
+                    <li><a href="reviews">Reviews</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Explore the World's Best Destinations</h2>
+            <p>Discover, review, and share your travel experiences</p>
+            <a href="destinations">Explore Destinations</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Review Platform. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
